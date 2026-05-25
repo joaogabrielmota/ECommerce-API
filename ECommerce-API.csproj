@@ -7,8 +7,89 @@
     <RootNamespace>ECommerce_API</RootNamespace>
   </PropertyGroup>
 
+
   <ItemGroup>
+    <Content Include=".vs\ECommerce-API.slnx\v18\DocumentLayout.backup.json" />
+    <Content Include=".vs\ECommerce-API.slnx\v18\DocumentLayout.json" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\ECommerce-API.deps.json" />
+    <Content Include="bin\Debug\net8.0\ECommerce-API.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\ECommerce-API.staticwebassets.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\ECommerce-API.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\ECommerce-API.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0\rjsmcshtml.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rjsmrazor.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.removed.txt" />
+    <Content Include="obj\ECommerce-API.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".github\workflows\" />
+    <Folder Include="bin\Release\net8.0\" />
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
+    <Folder Include="obj\Release\net8.0\refint\" />
+    <Folder Include="obj\Release\net8.0\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".github\copilot-instructions.md" />
+    <None Include=".vs\ECommerce-API.slnx\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\ECommerce-API.slnx\FileContentIndex\64d9a8a2-9364-4959-9770-eac68f0f7ee8.vsidx" />
+    <None Include=".vs\ECommerce-API.slnx\v18\.futdcache.v2" />
+    <None Include=".vs\ProjectEvaluation\ecommerce-api.metadata.v10.bin" />
+    <None Include=".vs\ProjectEvaluation\ecommerce-api.projects.v10.bin" />
+    <None Include=".vs\ProjectEvaluation\ecommerce-api.strings.v10.bin" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include="bin\Debug\net8.0\ECommerce-API.dll" />
+    <None Include="bin\Debug\net8.0\ECommerce-API.exe" />
+    <None Include="bin\Debug\net8.0\ECommerce-API.pdb" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\ECommerc.1446780B.Up2Date" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.assets.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.dll" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\ECommerce-API.pdb" />
+    <None Include="obj\Debug\net8.0\refint\ECommerce-API.dll" />
+    <None Include="obj\Debug\net8.0\ref\ECommerce-API.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets.build.json.cache" />
+    <None Include="obj\Debug\net8.0\swae.build.ex.cache" />
+    <None Include="obj\ECommerce-API.csproj.nuget.g.props" />
+    <None Include="obj\ECommerce-API.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net8.0\ECommerce-API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net8.0\ECommerce-API.GeneratedMSBuildEditorConfig.editorconfig" />
   </ItemGroup>
 
 </Project>
