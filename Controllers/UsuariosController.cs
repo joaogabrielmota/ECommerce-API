@@ -46,6 +46,13 @@ namespace ECommerce_API.Controllers
             var resultado = await _servicos.AtualizarUsuario(id, atualizarUsuarioDTO);
             return Ok(resultado);
         }
+
+        [HttpPatch("AlterarStatusUsuario")]
+        public async Task<IActionResult> AlterarStatusUsuario(int id)
+        {
+            var resultado = await _servicos.AlterarStatusUsuario(id);
+            return Ok(resultado);
+        }
     }
 }
    

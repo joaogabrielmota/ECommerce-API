@@ -79,5 +79,13 @@ namespace ECommerce_API.Services
 
             return coletarUsuarioDTO;
         }
+
+        public async Task<Usuario> AlterarStatusUsuario(int id)
+        {
+
+            var usuario = await _repositorios.AlterarStatusUsuario(id);
+
+            return usuario;
+        }
     }
 }

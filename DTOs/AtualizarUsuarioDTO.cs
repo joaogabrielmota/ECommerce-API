@@ -16,5 +16,7 @@ namespace ECommerce_API.DTOs
 
         [MaxLength(500)]
         public string? Endereco { get; set; }
+
+        public DateTime DataAtualizacao { get; set; }
     }
 }

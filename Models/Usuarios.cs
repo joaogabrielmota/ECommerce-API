@@ -29,6 +29,10 @@ namespace ECommerce_API.Models
 
         public DateTime DataCriado { get; set; } = DateTime.UtcNow;
 
+        public DateTime DataAtualizacao { get; set; }
+
+        public bool Ativo { get; set; } = true;
+
         public ICollection<Pedido> Pedidos { get; set; } = new List<Pedido>();
         public ICollection<Produto> Produtos { get; set; } = new List<Produto>();
     }

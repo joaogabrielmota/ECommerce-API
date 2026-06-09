@@ -55,8 +55,26 @@ namespace ECommerce_API.Repositories
             if (!string.IsNullOrWhiteSpace(dto.Endereco))
                 usuario.Endereco = dto.Endereco;
 
+            usuario.DataAtualizacao = DateTime.UtcNow;
+
             await _contexto.SaveChangesAsync();
 
+            return usuario;
+        }
+
+        public async Task<Usuario> AlterarStatusUsuario(int id)
+        {
+            var usuario = await ColetarUsuarioId(id);
+
+            if (usuario.Ativo == true)
+            {
+                usuario.Ativo = false;
+            }
+            else if(usuario.Ativo ==false) 
+            {
+                usuario.Ativo = true;
+            }
+            await _contexto.SaveChangesAsync();
             return usuario;
         }
     }
